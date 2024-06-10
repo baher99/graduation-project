@@ -1,0 +1,245 @@
+:root
+{
+    --main-color:#007aff;
+}
+nav
+{
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 70px;
+}
+.nav-links ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links li
+{
+    margin-right: 30px;
+
+}
+.nav-links a
+{
+    text-decoration: none;
+    font-size: larger;
+    color:  teal;
+}
+.cart
+{
+    position: fixed;
+    right: 0;
+    top: 80px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+#counter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 0;
+    left:0;
+    position: absolute;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+.cart i
+{
+    font-size: 30px;
+}
+.cart-container
+{
+    margin-top: 5px;
+    width: 250px;
+    height: 450px;
+    background-color: teal;
+    border-radius: 3%;
+    position: relative;
+    display: none;
+    z-index: 111111111111;
+    padding: 10px 5px;
+    overflow: auto;
+}
+.cart-container i
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+.cart-container table 
+{
+    margin-top: 20px;
+}
+th
+{
+    padding-right:20px;
+}
+.cart-container table button
+{
+    padding: 10px 10px;
+    border: 0;
+    background-color: red;
+    color:aliceblue;
+    border-radius: 10px;
+}
+.cart-container table hr
+{
+    width: 100%;
+}
+.cart-container table td
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.cart-container table input
+{
+    width: 50px;
+}
+
+header
+{
+    height: 100vh;
+    background-image: url(/images/main/header-bg.avif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.men-section
+{
+    padding-top: 100px;
+
+}
+.men-section h2
+{
+    text-align: center;
+}
+.men-section span
+{
+    color: teal;
+
+}
+.items-container{
+    margin-top: 70px;
+    padding: 0px 25px;
+    display: flex;
+}
+
+
+.item 
+{
+    width: 25%;
+    height: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+.item:hover i
+{
+    color: #007aff;
+}
+.item-capt
+{
+    display: flex;
+    justify-content: center;
+}
+.item-capt h3
+{
+    margin-right: 20px;
+}
+.item-capt i{
+    margin-top: 10px;
+    font-size: 25px;
+    transition: color .3s;
+}
+.item:hover .item-img img
+{
+    transform: scale(1.1);
+
+}
+.item-img img
+{
+    margin-bottom: 10px;
+    width: 75%;
+    height: 100%;
+    transition: transform .3s;
+}
+.women-section
+{
+    padding-top: 100px;
+    background-color: pink;
+    border-radius: 10%;
+
+}
+.women-section h2
+{
+    text-align: center;
+}
+.women-section span
+{
+    color: teal;
+
+}
+
+.kids-section
+{
+    padding-top: 100px;
+}
+.kids-section h2
+{
+    text-align: center;
+}
+.kids-section span
+{
+    color: teal;
+
+}
+.contact
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+footer
+{
+    padding: 50px;
+    background-image: url(../images/main/download.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+footer h2
+{
+    text-align: center;
+}
+footer h2 span
+{
+    color: teal;
+}
+.contact h3
+{
+    margin-bottom: 20px;
+}
+.contact ul
+{
+    list-style: none;
+    margin-left: -25px;
+}
+.contact ul a
+{
+    text-decoration: none;
+}
+.contact ul li
+{
+    margin-bottom: 10px;
+}
