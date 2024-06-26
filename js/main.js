@@ -4,6 +4,10 @@ let closeIcon =document.querySelector('.close');
 let shopItem = document.querySelectorAll('.item-capt i');
 let productContainer ;
 
+
+
+
+
 cart.addEventListener('click' , function(){
     cartContainer.style.display='block';
 })
@@ -55,6 +59,4 @@ function deleteProducts(deletedIndex)
     productContainer.splice(deletedIndex,1);
     localStorage.setItem('myProducts',JSON.stringify(productContainer));
     displayProducts(productContainer);
-    
-
 }

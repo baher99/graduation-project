@@ -2,6 +2,7 @@
 {
     --main-color:#007aff;
 }
+
 nav
 {
     background-color:transparent;
@@ -108,6 +109,17 @@ th
     width: 50px;
 }
 
+.cart-but 
+{
+    bottom:10px;
+    left: 75px;
+    padding: 6px 10px;
+    color: wheat;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+
+}
 header
 {
     height: 100vh;
@@ -156,6 +168,8 @@ header
 }
 .item-capt h3
 {
+    color: tomato;
+    font-size: 20px;
     margin-right: 20px;
 }
 .item-capt i{
@@ -178,7 +192,7 @@ header
 .women-section
 {
     padding-top: 100px;
-    background-color: pink;
+    background-color: rgb(252, 217, 223);
     border-radius: 10%;
 
 }
@@ -242,4 +256,119 @@ footer h2 span
 .contact ul li
 {
     margin-bottom: 10px;
+}
+
+
+
+
+/* log in */
+
+
+.login 
+{
+    background-color: #24353f !important;
+    position: relative;
+
+}
+.group
+{
+    width: 40% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 10%;
+    padding: 5% !important;
+}
+.group h1
+{
+    color: #17a2b8;
+    margin-bottom: 30px;
+}
+.userinfo input
+{
+background-color: transparent;
+}
+
+.body
+{
+
+    background-color: #24353f !important;
+}
+.welcome
+{
+    width: 40% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 10%;
+    padding: 5% !important;
+}
+.welcome h1
+{
+    font-size: 40px !important;
+
+}
+
+/* reg */
+
+.signup
+{
+    background-color: #24353f !important;
+}
+.group
+{
+    width: 40% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding: 5%;
+}
+.group h1
+{
+    color: #17a2b8;
+    margin: 30px 0px;
+}
+.userinfo input
+{
+background-color: transparent;
+color: aliceblue;
+
+}
+.redirect
+{
+    width: 30% !important;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0) !important;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 5%;
+}
+
+.order
+{
+    background-color: teal;
+}
+
+.order input
+{
+    border: teal;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+.order button
+{
+    padding: 10px 25px;
+    background-color:black;
+    color: wheat;
+    border: 0;
+    border-radius: 10px;
+
+}
+.sucess
+{
+    background-color: teal;
 }
